@@ -399,6 +399,11 @@ header {
     width: 255px;
 }
 
+.marquee-content {
+  will-change: transform;
+  transform: translateZ(0); /* forces GPU acceleration */
+}
+
 /* About */
 .about-content p {
     font-size: clamp(18px, 1.2vw + 0.25rem, 22px);
