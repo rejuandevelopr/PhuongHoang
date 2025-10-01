@@ -678,7 +678,7 @@ header {
 }
 
 .cta-container h3 {
-    font-size: clamp(20px, 2vw + 1rem, 36px);
+    font-size: clamp(20px, 2vw + 1rem, 32px);
     margin-bottom: 15px;
 }
 
