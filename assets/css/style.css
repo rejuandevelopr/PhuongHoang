@@ -446,6 +446,13 @@ header {
     line-height: 133.333%;
 }
 
+@media screen and (min-width:1200px) {
+    #benefits .container {
+        max-width: 1250px;
+    }
+}
+
+
 /* Testimonial */
 #testimonials {
     background-color: rgb(249, 250, 251);
