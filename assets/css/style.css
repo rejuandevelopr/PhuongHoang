@@ -440,7 +440,7 @@ header {
 .benefits-content__list h4 {
     color: #212529;
     font-family: "Red Hat Display";
-    font-size: clamp(20px, 1.2vw + 0.5rem, 24px);
+    font-size: clamp(20px, 1.2vw + 0.5rem, 22px);
     font-style: normal;
     font-weight: 700;
     line-height: 133.333%;
@@ -621,7 +621,7 @@ header {
 }
 
 .services-card h3 {
-    font-size: clamp(24px, 1.5vw + 0.5rem, 28px);
+    font-size: clamp(24px, 1.5vw + 0.5rem, 26px);
     color: var(--color-blue);
     margin-top: 14px;
 }
