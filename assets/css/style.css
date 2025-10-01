@@ -39,7 +39,7 @@ a {
 h1 {
     color: var(--color-white);
     font-family: "Paytone One";
-    font-size: clamp(2.5rem, 5vw + 1rem, 74px);
+    font-size: clamp(2.5rem, 4.1vw + 1rem, 74px);
     font-style: normal;
     font-weight: 400;
     line-height: 100%;
@@ -255,6 +255,12 @@ h3 span {
     font-weight: 400;
     line-height: 133.333%;
     text-transform: capitalize;
+}
+
+@media screen and (max-width:1200px) {
+    .hero-content span br {
+        display: none;
+    }
 }
 
 .hero-frame {
