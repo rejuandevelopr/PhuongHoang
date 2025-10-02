@@ -555,10 +555,6 @@ header {
     padding-bottom: 18px;
 }
 
-.splide {
-    padding-left: 12px;
-}
-
 .testimonials-head {
     display: flex;
     align-items: center;
@@ -605,6 +601,12 @@ header {
 
 .splide__list {
     align-items: stretch !important;
+}
+
+@media screen and (max-width:576px) {
+    .slider-buttons {
+        justify-content: center;
+    }
 }
 
 /* Services */
