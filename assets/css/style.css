@@ -43,7 +43,7 @@ a {
 h1 {
     color: var(--color-white);
     font-family: "Montserrat";
-    font-size: clamp(2.5rem, 4.1vw + 1rem, 68px);
+    font-size: clamp(2.5rem, 3.7vw + 1rem, 68px);
     font-style: normal;
     font-weight: 500;
     line-height: 100%;
