@@ -254,6 +254,10 @@ h3 span {
         align-items: center;
         gap: 14px;
     }
+
+    .navbar-brand span {
+        font-size: 18px;
+    } 
 }
 
 
