@@ -25,7 +25,7 @@ body {
 }
 
 html {
-  scroll-padding-top: 50px;
+    scroll-padding-top: 50px;
 }
 
 @media screen and (min-width:1200px) {
@@ -165,6 +165,13 @@ h3 span {
 .navbar-brand span {
     font-weight: 700;
     color: #073B4C;
+    font-size: 18px;
+}
+
+@media screen and (max-width:1200px) {
+    .navbar-brand span {
+        font-size: 16px;
+    }
 }
 
 .nav-item {
@@ -175,6 +182,8 @@ h3 span {
 .nav-link {
     font-size: 1.125rem;
     font-weight: 600;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 .navbar-brand {
@@ -182,6 +191,7 @@ h3 span {
     align-items: center;
     gap: 10px;
 }
+
 
 .navbar-nav .nav-link.active,
 .navbar-nav .nav-link.show {
@@ -208,6 +218,17 @@ h3 span {
     gap: 14px;
 }
 
+@media screen and (max-width:1200px) {
+    .nav-right-part a:first-child {
+        color: var(--primary-color);
+        font-size: 14px;
+        font-weight: 500;
+        display: flex;
+        align-items: center;
+        gap: 14px;
+    }
+}
+
 .nav-right-part a:first-child svg path {
     fill: #0B4F63;
 }
@@ -223,6 +244,15 @@ h3 span {
 
     .nav-btn {
         padding: 9px;
+    }
+
+    .nav-right-part a:first-child {
+        color: var(--primary-color);
+        font-size: 16px;
+        font-weight: 500;
+        display: flex;
+        align-items: center;
+        gap: 14px;
     }
 }
 
@@ -337,8 +367,8 @@ h3 span {
 }
 
 .hero-list-main .about-content__subhead {
-   color: var(--color-white);
-   font-weight: 500;
+    color: var(--color-white);
+    font-weight: 500;
 }
 
 .hero-btns {
